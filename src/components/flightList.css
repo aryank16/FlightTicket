@@ -1,0 +1,42 @@
+/* FlightList.css */
+
+/* Style the flight ticket container */
+.ul {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  /* Style the airline name */
+  .li {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Style flight details */
+  .flight-details {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  /* Style departure and return date */
+  .date {
+    font-weight: bold;
+    margin-top: 5px;
+  }
+  
+  /* Style the price */
+  .price {
+    font-size: 24px;
+    color: #007bff; /* Blue color for price */
+    margin-top: 10px;
+  }
+  
